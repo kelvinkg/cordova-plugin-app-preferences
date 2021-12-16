@@ -9,7 +9,7 @@ module.exports = function (context) {
 		cordova_lib = require('cordova-lib'),
 		ConfigParser = cordova_lib.configparser,
 		cordova_util = require('cordova-lib/src/cordova/util'),
-		fs = require("./filesystem")(Q, require('fs'), path),
+		fs = require("./filesystem")(Q, require('fs'), path);
 
 	// fs, path, ET, cordova_util, ConfigParser
 
